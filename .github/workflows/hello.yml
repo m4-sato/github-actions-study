@@ -1,4 +1,4 @@
-name: Hello
+name: Hello　# This is a simple GitHub Actions workflow that runs on every push to the repository. It prints "Hello, World!" to the console and checks out the repository code using the actions/checkout action.
 on: push
 jobs:
   hello:
