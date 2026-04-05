@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # - run: echo "${{ github.actor }}" # githubコンテキストの参照
-      - run: echo "${{ env.BRANCH }}" # githubコンテキストの参照
+      - run: echo "${GITHUB_ACTOR}" # githubコンテキストの参照
