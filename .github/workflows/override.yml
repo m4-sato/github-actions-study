@@ -8,5 +8,5 @@ jobs:
     steps:
       - run: echo "${{ env.EXAMPLE }}" # workflowレベルの環境変数が参照される
       - env:
-        EXAMPLE: "step level"
+          EXAMPLE: "step level"
         run: echo "${{ env.EXAMPLE }}" # stepレベルの環境変数が参照される
